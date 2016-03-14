@@ -1,7 +1,7 @@
-require 'contracts'
 require 'concourse-fuselage'
-require 'concourse-resource/rubygems/core'
+require 'contracts'
 require 'httparty'
+require_relative 'core'
 
 module ConcourseResource
   module RubyGems
