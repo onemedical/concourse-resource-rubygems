@@ -1,5 +1,6 @@
 module ConcourseResource
   module RubyGems
-    VERSION = '0.4.0'.freeze
+    class Error < StandardError
+    end
   end
 end

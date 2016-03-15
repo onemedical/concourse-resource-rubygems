@@ -2,8 +2,8 @@ require_relative 'error'
 
 module ConcourseResource
   module RubyGems
-    # Exception for when a Gem is not found
-    class GemNotFound < Error
+    # Exception for ambiguous globbing
+    class AmbiguousGlob < Error
     end
   end
 end
